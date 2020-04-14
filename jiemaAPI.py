@@ -361,7 +361,7 @@ class AreaSelect(tk.Toplevel):
             level = 'c'
             # 文本框相关
             self.m_list.delete(0, tk.END)
-            with open('./dataset/city_sorted.txt', 'r', encoding='gbk') as f1:
+            with open('.\dataset\city_sorted.txt', 'r', encoding='gbk') as f1:
                 temp_list = f1.readlines()
             for item in temp_list:
                 # 去掉换行符
@@ -381,7 +381,7 @@ class AreaSelect(tk.Toplevel):
             level = 'p'
             # 文本框相关
             self.m_list.delete(0, tk.END)
-            with open('./dataset/province.txt', 'r', encoding='gbk') as f1:
+           with open('.\dataset\province.txt', 'r', encoding='gbk') as f1:
                 temp_list = f1.readlines()
             for each in temp_list:
                 # 去掉换行符
